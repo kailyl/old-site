@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+.projectDescr {
+    margin-top: 0;
+    width: 30%;
+    border: 4px solid black;
+    border-left: none;
+    margin-bottom: -4px;
+    align-items: center;
+}
+
+.picture {
+    width: 90%; 
+    bottom: 0; 
+    vertical-align: bottom;
+}
+
+.name {
+    font-size: 1.5vw;
+    text-align: left;
+    margin-left: 7%;
+    margin-top: 5%;
+    margin-bottom: 0;
+    margin-right: 15%;
+}
+
+.class { 
+    text-align: left;
+    font-size: 1vw;
+    margin-left: 7%;
+    margin-top: 0;
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.descr {
+    text-align: left;
+    font-size: 1.5vw;
+    margin-left: 7%;
+    margin-top: 0;
+    margin-right: 15%;
+    margin-bottom: 10px;
+}
+
+.language {
+    text-align: left;
+    font-size: 1.25vw;
+    font-style: normal;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    margin-left: 7%;
+}
+
+.bottom {
+    margin-top: 10px;
+    width: 30%;
+    margin-left: 7%;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.buttonn {
+    position: absolute;
+    background-color: white;
+    border-color: black;
+    margin-bottom: 5px;
+    margin-left: 15%;
+    margin-top: 10px;
+}
+
+.buttonn:hover {
+    background-color: orange;
+}
+
+.buttonn:focus { 
+    outline: none;
+}
+
+@media only screen and (max-width: 700px) {
+    /* For mobile phones: */
+    .projectDescr { 
+        width: 49.7%; 
+        border-top: none;
+        border-right: none;
+    }
+
+    .descr {
+        font-size: 14px;
+    }
+
+    .language {
+        margin-left: 20px;
+        font-size: 12px;
+    }
+
+    .class {
+        font-size: 12px;
+    }
+
+    .name {
+        font-size: 16px;
+    }
+
+    .bottom {
+        display: block;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .buttonn {
+        margin-top: 5px;
+        margin-left: -5%;
+        margin-right: auto;
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,44 @@
+.currentStuff {
+    width: 100%;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    margin-left: 0;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    margin-top: 0;
+}
+
+.paragraph {
+    font-size: 1.75vw;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.link2 {
+    color: black;
+    text-decoration: underline;
+}
+
+.link2:hover {
+    color: orange;
+}
+
+@media only screen and (max-width: 700px) {
+    /* For mobile phones: */
+    .currentStuff {
+      width: 100%;
+      margin-left: 0;
+      border-bottom: none;
+      margin-bottom: 0;
+      border-bottom: 4px solid black;
+      border-top: none;
+    }
+
+    .paragraph {
+        margin-left: 8px;
+        font-size: 12px;
+    }
+}

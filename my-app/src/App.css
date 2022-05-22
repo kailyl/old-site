@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -21,18 +17,27 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: beige;
 }
 
 .App-link {
   color: #61dafb;
 }
+* {
+	text-align: center;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo {
+	margin: auto
+}
+
+.jumbotron {
+	margin: 100px auto;
+	max-width: 50%;
+	text-align: center;
+}
+
+.card {
+	width: 18rem;
+	margin: 100px auto;
 }
