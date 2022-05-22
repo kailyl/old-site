@@ -54,7 +54,7 @@
 
 .bottom {
     margin-top: 10px;
-    width: 30%;
+    width: 85%;
     margin-left: 7%;
     margin-right: auto;
     align-items: center;
@@ -67,8 +67,10 @@
     background-color: white;
     border-color: black;
     margin-bottom: 5px;
-    margin-left: 15%;
     margin-top: 10px;
+    font-size: 1vw;
+    margin-left: 13.5vw;
+    color: black;
 }
 
 .buttonn:hover {
@@ -82,9 +84,8 @@
 @media only screen and (max-width: 700px) {
     /* For mobile phones: */
     .projectDescr { 
-        width: 49.7%; 
+        width: 43%; 
         border-top: none;
-        border-right: none;
     }
 
     .descr {
@@ -119,5 +120,6 @@
         margin-left: -5%;
         margin-right: auto;
         margin-bottom: 0;
+        font-size: 12px;
     }
 }
