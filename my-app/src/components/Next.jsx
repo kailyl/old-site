@@ -14,7 +14,7 @@ function Next(props) {
 			<h1 className='title'> {data.name} </h1>
 			<div> 
 				<div className='subtitle'> 
-					<div> 
+					<div className='paraa'> 
 						{data.p1.join("").split('\\n').map (str => {
 							return <p className='paragraphz'> {str} </p> 
 						})}
@@ -27,7 +27,7 @@ function Next(props) {
 				</div>
 			<div> 
 				<h2 className='sTitle'> PROCESS </h2>
-				<div> 
+				<div className='para'> 
 					{data.p2.join("").split('\\n').map (str => {
 						return <p className='paragraphz'> {str} </p> 
 					})}
