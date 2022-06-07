@@ -32,6 +32,14 @@
     margin-left: 0;
 }
 
+.otherPara {
+    margin-top: 2%;
+}
+
+.para {
+    margin-top: -5%;
+}
+
 .paragraphz {
     font-size: 2vw;
     text-align: left;

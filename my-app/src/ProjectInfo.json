@@ -32,13 +32,13 @@
                 "greater likelihood of sharing a generation if they are members of the same sub-committee? "], 
         "p2": ["To collect our data, we scraped the List of United States Senators in the 117th Congress on Wikipedia", 
                 "each individual senator's page, and the Senator Committee Assignments page on the official Senate website.", 
-                "We then used this information to create our graph, where each senator was represented as a node,", 
+                " We then used this information to create our graph, where each senator was represented as a node,", 
                 "and an edge was formed if two senators shared at least one committee. In our graph, we computed the clustering ", 
                 "coefficient of each senator in \\n 1) the complete graph \\n 2) an isolated graph where all ", 
                 "the nodes share a common age \\n 3) an isolated graph where all the nodes have a distinct age. ", 
                 "\\nComparing these values, we determined that there was no statistically significant disparity. However, this was ", 
                 "skewed by the overwhelming number of older senators and a singular senator in the millenial generation.", 
-                "Below are images of our brainstorming and results."], 
+                " Below are images of our brainstorming and results."], 
         "repo": "https://github.com/kailyl/nets-150-final-project"
     }, {
         "path": "/2048",
@@ -76,7 +76,7 @@
                 "be a professional website, I included my resume, interests, and a short blurb about me on the site. After ", 
                 "gaining a better understanding of the programming languages, I decided to customize the website to my tastes. ", 
                 "Once satisfied with the appearance of my site, I used GitHub Pages to handle the server-side requests and domain hosting.", 
-                "Below are screenshots of my previous website before it was replaced by this site :). "],
+                " Below are screenshots of my previous website before it was replaced by this site :). "],
         "repo": "https://github.com/kailyl/old-website"
     }
 ]

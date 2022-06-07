@@ -1,6 +1,7 @@
 import './Project.css'
 import { useNavigate } from "react-router-dom";
 
+
 export default function Project(props) {
     const data = props.val;
     const history = useNavigate();
