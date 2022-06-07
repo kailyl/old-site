@@ -1,4 +1,22 @@
-[
+[       
+        {
+        "path": "/common-onion",
+        "name": "Common Onion Twitter Bot",
+        "class": "Personal Project, 2022",
+        "descr": "Used the Twitter API to generate parodies of The Onion titles",
+        "lang": "Python",
+        "p1": ["The first programming language I ever learned was Python. Since most of the coursework I", 
+                " complete in school uses Java, I decided to experiment with coding in Python again. \\n", 
+                "I like Twitter, so I created a Twitter Bot to parody titles of the parodied titles on The Onion."],
+        "p2": ["I first began by brainstorming about the topic I wanted to copy. Because I had experience with ", 
+                "Markov Chains from previous classwork (and Twitter's limited word count), I knew that whatever I was", 
+                " parodying would have to be short. I initially thought to replicate news articles, but then decided to ", 
+                "replicate titles from The Onion, which are already parodies of news articles. \\n", 
+                "I then used Selenium to get data from r/TheOnion on Reddit to get the trending headlines over the past ", 
+                "year, Python File I/O to read/write the headlines in a txt file, and Tweepy to tweet the Markov chains ", 
+                "generated. "], 
+        "repo": "https://github.com/kailyl/the-onion-twitter-bot"
+    },
     {
         "path": "/kailyl-v2",
         "name": "kailyl.github.io (v2)",
@@ -46,7 +64,7 @@
         "class": "CIS 120, 2021",
         "descr": "Implementation of 2048 with added saving, restarting, and resuming features",
         "lang": "Java, Java Swing",
-        "p1": ["I implemented 2048 for my final project for CIS 120 aka. Programming Languages and Techniques. ", 
+        "p1": ["I implemented 2048 for my final project in CIS 120 aka. Programming Languages and Techniques. ", 
                 "The final project consisted of any game that included a number of topics we had learned about, including ", 
                 "abstraction and classes, I/O, programming patterns, and mutable state. Because of these requirements ", 
                 "(and many hours wasted playing this game in middle school), I decided to create 2048, with added functionality", 

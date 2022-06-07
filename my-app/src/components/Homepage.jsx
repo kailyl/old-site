@@ -11,7 +11,7 @@ import website1 from '../images/web2.jpeg'
 function Homepage() {
   const data = require('../ProjectInfo.json');
   const inspo = <a href="https://apelido-apelido.com/" style={{color: 'black'}}>apelido-apelido.com/</a>;
-  const images = [website2, nets, game, paint, website1]; 
+  const images = [website2, website2, nets, game, paint, website1]; 
 
   return (
     <div className="app">

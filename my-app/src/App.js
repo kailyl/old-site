@@ -19,6 +19,9 @@ import paint3 from './images/paint(3).png';
 import webb1 from './images/website(1).png';
 import webb2 from './images/website(2).png';
 import webb3 from './images/website(3).png';
+import twitter1 from './images/twitter(1).png';
+import twitter2 from './images/twitter(2).jpeg';
+import twitter3 from './images/twitter(3).png';
 import Homepage from "./components/Homepage"
 import Next from "./components/Next"
 import ScrollToTop from './components/ScrollToTop';
@@ -27,9 +30,9 @@ import './App.css';
 function App() {
 	const data = require('./ProjectInfo.json');
 
-	const firstImage = [web1, nets1, game1, paint1, webb1]; 
-	const secondImage = [web2, nets3, game2, paint2, webb2]; 
-	const thirdImage = [web3, nets2, game3, paint3, webb3]; 
+	const firstImage = [twitter1, web1, nets1, game1, paint1, webb1]; 
+	const secondImage = [twitter2, web2, nets3, game2, paint2, webb2]; 
+	const thirdImage = [twitter3, web3, nets2, game3, paint3, webb3]; 
 
 	return (
 		<>
