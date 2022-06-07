@@ -6,7 +6,7 @@ import Buttons from './Buttons';
 
 
 export default function Bio() {
-    const me = <a href="https://drive.google.com/file/d/1_BKkKQB3OcCE2bu-_oU97R5iQ7ZHcC0I/view?usp=sharing" className='link'>KAILY LIU</a>;
+    const me = <a href="https://drive.google.com/file/d/1faPBd3xzovX8ovZOxSzwqMLz8kpybN3C/view?usp=sharing" className='link'>KAILY LIU</a>;
     const penn = <a href="https://www.upenn.edu/" className='link2'>penn</a>;
     const cs = <a href="https://www.cis.upenn.edu/undergraduate/program-offerings/computer-science-bse/" className='link2'>computer science</a>;
     const econ = <a href="https://economics.sas.upenn.edu/undergraduate" className='link2'>economics</a>;
