@@ -33,10 +33,19 @@ function Next(props) {
 						return <p className='paragraphz'> {str} </p> 
 					})}
 				</div>
+				{data.name === "Plotify" ? 
+					<div className='plotify'> 
+						<p className='paragraphz'>
+						Our app is located at <a href="https://plotifyapp.github.io/" style={{color: 'black'}}>plotifyapp.github.io</a>, 
+						but we are currently waiting for a quota extension from Spotify. Until then, please email me at {" "}
+						 <a href="mailto: kliu279@gmail.com" style={{color: 'black'}}>kliu279@gmail.com</a> to be added to our list of users!
+						</p>
+					</div> 
+				: null}
 				<div className='images'>
-					<img src={props.img1} alt="brainstorming document" />
-					<img src={props.img2} alt="brainstorming document"/>
-					<img src={props.img3} alt="brainstorming document"/>
+					<img className="brainstorm" src={props.img1} alt="brainstorming document" />
+					<img className="brainstorm" src={props.img2} alt="brainstorming document"/>
+					<img className="brainstorm" src={props.img3} alt="brainstorming document"/>
 				</div>
 			</div>
 			<button className='btnn' onClick={home}>

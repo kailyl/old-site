@@ -85,6 +85,10 @@ img {
     background-color: orange;
 }
 
+.plotify {
+    font-size: 1.5vw;
+}
+
 @media only screen and (max-width: 700px) {
     .paragraphz {
         font-size: 14px;
