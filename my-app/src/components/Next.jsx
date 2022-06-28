@@ -20,7 +20,9 @@ function Next(props) {
 							return <p className='paragraphz'> {str} </p> 
 						})}
 						<div> 
-							{(data.hasOwnProperty('repo')) ? <p className='paragraphz'> Repository: <a href={data.repo} style={{color: 'orange'}}>{data.repo}</a> </p> : <></> }
+							{(data.hasOwnProperty('repo')) ? <p className='paragraphz'> 
+								Repository: <a href={data.repo} style={{color: 'orange'}} className="repo">{data.repo}</a> </p> : <>
+							</> }
 						</div>
 					</div>
 					<h2 className='sidewayssTitle'> INTENT</h2>

@@ -5,7 +5,7 @@
         "class": "Personal Project, 2022",
         "descr": "Created a website using the Spotify API that graphs a user's top songs based on popularity and valence",
         "lang": "React, CSS",
-        "p1": ["This was a project I completed during the summer with my friend and math buddy Joyce He using React. ", 
+        "p1": ["This was a project I completed during the summer with my friend/math buddy Joyce He using React. ", 
                 "One topic that Joyce and I bonded over was music (we're big fans of Eric Nam's 'You're Sexy I'm Sexy'), ", 
                 "so we thought it would be cool to make something with the Spotify API. Specifically, Joyce would work ", 
                 "on the UI while I would create the website using the Spotify API and React."],
@@ -13,7 +13,7 @@
                 "authorize our users. Using their accounts, our program connects to the Spotify server to gather each user's ", 
                 "top 10 songs over a 'medium' time frame. Then, we parse this data to get the top songs, and use the API to ", 
                 "find the song name, artist, popularity, valence (which correlates to the happiness/sadness of a song), album cover ", 
-                "and each artist's genres. This information is 'graphed' using an HTML canvas based on popularity and valence." ], 
+                "and each artist's genres. This information is 'graphed' using an HTML canvas based on popularity and valence."], 
         "repo": "https://github.com/PlotifyApp/plotifyapp.github.io"
 },       
 {
