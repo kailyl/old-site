@@ -53,6 +53,7 @@
   margin-left: 2%;
   margin-right: 2%;
   margin-top: 10px;  
+  font-size: xx-large;
 }
 
 .iPt1 {
@@ -62,7 +63,7 @@
 .lotsOfButtons {
   margin-left: 2%;
   margin-right: 2%;
-  text-align: left;
+  margin-top: 5%;
 }
 
 .iPt2 {
@@ -73,8 +74,9 @@
   background-color: white;
   border-color: black;
   color: black;
-  margin-right: 10px;
-  margin-bottom: 5px;
+  margin-right: 45px;
+  margin-bottom: 25px;
+  font-size: xx-large;
 }
 
 .buttonz:hover {
@@ -148,7 +150,7 @@
   }
 
   .interests {
-    font-size: 14px;
+    font-size: xx-large;
   }
 
 }
@@ -160,6 +162,34 @@
   }
 
   .buttonz {
-    font-size: 12px;
+    font-size: xx-large;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .buttonz {
+    font-size: x-large;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .interests {
+    margin-bottom: 8px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .buttonz {
+    font-size: larger;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .buttonz {
+    font-size: large;
+    margin-bottom: 10px;
+    margin-right: 20px;
   }
 }

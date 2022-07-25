@@ -1,7 +1,6 @@
 import meee from '../images/profile.jpg'
 import Current from './Current';
 import './Bio.css'
-import { useState } from 'react';
 import Buttons from './Buttons';
 
 
@@ -13,8 +12,6 @@ export default function Bio() {
     const eent = <a href="https://eent.seas.upenn.edu/undergraduate-minor/" className='link2'>engineering entrepreneurship</a>;
     const math = <a href="https://www.math.upenn.edu/undergraduate/math-majors-and-minors/mathematics-minor" className='link2'>math</a>;
 
-    const[hover, setHover] = useState(false);
-
     return (
         <div>  
             <div className='bigMe'> 
@@ -25,19 +22,17 @@ export default function Bio() {
                         <h1 className='myName'> {me}</h1>
                         <p className='majors'> second year student at {penn} studying {cs} and {econ}. 
                         minors in {eent} and {math}.</p>
-                    </div>
+                    </div> 
                     <div className='iPt1'> 
                         <h1 
-                            className='interests' 
-                            onMouseEnter={() =>setHover(true)} 
-                            onMouseLeave={() => setHover(false)}> {hover ? "click for links and cool things" : "interests"} </h1>
+                            className='interests'>  </h1>
                         <Buttons /> 
                     </div>
                 </div>    
             </div>
             </div>
             <div className='iPt2'> 
-                <h1 className='interests'> my interests </h1>
+                <h1 className='interests'>  </h1>
                 <Buttons />
             </div>
             <Current />

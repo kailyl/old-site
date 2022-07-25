@@ -42,3 +42,10 @@
         font-size: 12px;
     }
 }
+
+@media only screen and (max-width: 750px) {
+    /* For mobile phones: */
+    .currentStuff {
+        border-top: none
+    }
+}
