@@ -6,7 +6,7 @@ export default function Buttons() {
                 className='buttonz' 
                 onClick={(e) => {
                 e.preventDefault(); 
-                window.location.href='https://drive.google.com/file/d/1ICDXXhzEg5TDaeZ8iQS_f5X-EeCQ4dVg/view?usp=sharing';
+                window.location.href='https://drive.google.com/file/d/189ZiDgT_uDu2T3uAv3kMaJAHGRjUqdfD/view?usp=sharing';
                 }}> resume &#128221;</button>
             <button 
                 className='buttonz'
