@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(249, 249, 249);
+}
+
+#about:hover {
+    font-style: italic;
+}
+
+#about {
+    display: inline-block;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0;
+    position: fixed;
+    top: 2%; 
+    right: 2%;
+}
+
+#name:hover {
+    font-style: italic;
+}
+
+#name {
+    display: inline-block;
+    font-size: 14px;
+    position: fixed;
+    margin:0;
+    top: 2%; 
+    left: 2%;
+    cursor: pointer;
+}
+
+#date {
+    display: inline-block;
+    font-size: 14px;
+    position: fixed;
+    margin:0;
+    top: 2%; 
+    width: 10%;
+    left: 45%;
+    right: 45%;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 400px) {
+    #date {
+        display: none;
+    }
+  }

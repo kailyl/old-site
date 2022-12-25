@@ -1,0 +1,122 @@
+#all {
+  opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;   
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  margin-top: 10vh;
+  height: 84vh;
+  overflow: scroll;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0px;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+        opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+#projects1 {
+  border: 1px solid black; 
+}
+
+#projects2 {
+  border: 1px solid black; 
+  border-left: none;
+}
+
+#projects3, #projects4 {
+  border: 1px solid black; 
+  border-left: none;
+}
+
+#projects5 {
+  border: 1px solid black; 
+  border-top: none;
+}
+
+#projects6 {
+  border: 1px solid black; 
+  border-top: none;
+  border-left: none;
+}
+
+@media only screen and (max-width: 900px) {
+  #all {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #projects1 {
+    border: 1px solid black; 
+  }
+  
+  #projects2, #projects3 {
+    border: 1px solid black; 
+    border-left: none;
+  }
+  
+  #projects4 {
+    border: 1px solid black; 
+    border-top: none;
+  }
+  
+  #projects5 {
+    border: 1px solid black; 
+    border-top: none;
+    border-left: none;
+  }
+  
+  #projects6 {
+    border: 1px solid black; 
+    border-top: none;
+    border-left: none;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #all {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #projects1 {
+    border: 1px solid black; 
+  }
+  
+  #projects2 {
+    border: 1px solid black; 
+    border-left: none;
+  }
+  
+  #projects3, #projects5 {
+    border: 1px solid black; 
+    border-top: none;
+  }
+
+  #projects4, #projects6 {
+    border: 1px solid black;
+    border-top: none; 
+    border-left: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #all {
+    display: block;
+  }
+  #projects1 {
+    border: 1px solid black; 
+  }
+  #projects2, #projects3, #projects4, #projects5, #projects6 {
+    border: 1px solid black; 
+    margin-top: -5px;
+    border-top: none;
+  }
+}

@@ -1,0 +1,49 @@
+#info {
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;    
+    margin-top: 15vh;
+    width: 40%;
+    margin-left: 2%;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+        opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+#link {
+    margin-right: 40px;
+    font-size: 13px;
+    color: black;
+    display: inline-block;
+}
+
+#else {
+    margin-bottom: 5px;
+}
+
+#links {
+    width: 100%;
+}
+
+p {
+    font-size: 13px;
+}
+
+#email {
+    color: black;
+}
+
+@media only screen and (max-width: 700px) {
+    #info {
+        margin-top: 10vh;
+        width: 80%;
+    }
+}

@@ -1,40 +1,61 @@
-import './Homepage.css';
-import Bio from './Bio';
-import Project from './Project'; 
-import website2 from '../images/new.jpeg'
-import nets from '../images/nets.jpeg'
-import paint from '../images/paint.jpeg'
-import game from '../images/20488.png'
-import website1 from '../images/web2.jpeg'
-import twitter from '../images/twitterr.jpeg'
-import plotify from '../images/plotify.jpeg'
+import Header from './Header';
+import Project from './Project';
+import '../style/Homepage.css';
 
-
-function Homepage() {
-  const data = require('../ProjectInfo.json');
-  const inspo = <a href="https://apelido-apelido.com/" style={{color: 'black'}}>apelido-apelido.com/</a>;
-  const images = [plotify, twitter, website2, nets, game, paint, website1]; 
-
+export default function Homepage() {
   return (
-    <div className="app">
-      <h1 className='abt'> ABOUT </h1>
-      <Bio /> 
-      <div className='bigSeparator'> 
-        <div className='projects'> 
-          <div className='otherBigText'> 
-              <h1> PROJECTS</h1>
-          </div>
-          {images.map((item, index) => {
-            return <Project key={index} val={data[index]} img={item} /> 
-          })}
+    <div>
+      <Header homeItalics="italic" aboutItalics="none"/> 
+      <div id="all"> 
+        <div id="projects1">
+          <Project 
+            name="BenBook" 
+            tools="NodeJS, Java, CSS, DynamoDB, EC2" 
+            descr="Facebook-like site with walls, news feeds, and chats" 
+            time="2022" 
+            link="https://github.com/kailyl/benbook"/>
         </div>
-        <div className='bigText'> 
-            <h1 className='txt'> PROJECTS</h1>
+        <div id="projects2">
+            <Project 
+              name="Plotify" 
+              tools="ReactJS, CSS" 
+              descr="Uses Spotify API to graph song preferences" 
+              time="2022" 
+              link="https://github.com/PlotifyApp/plotifyapp.github.io"/>
+          </div>
+        <div id="projects3">
+        <Project 
+            name="FNAR 0010" 
+            tools="Charcoal, Pencil, India Ink" 
+            descr="I took an art class" 
+            time="2022" 
+            link="/fnar"/>
+        </div>
+        <div id="projects4">
+          <Project 
+            name="Common Onion Twitter Bot" 
+            tools="Python" 
+            descr="Uses Twitter API to generate funny tweets" 
+            time="2022" 
+            link="https://github.com/kailyl/the-onion-twitter-bot"/>
+        </div>
+        <div id="projects5">
+          <Project 
+            name="Age in Congressional Committees" 
+            tools="Java" 
+            descr="Clustering coefficients and Senate ties" 
+            time="2022" 
+            link="https://github.com/kailyl/nets-150-final-project"/>
+        </div>
+        <div id="projects6">
+          <Project 
+              name="2048" 
+              tools="Java" 
+              descr="(with saving, restarting, and resuming)" 
+              time="2021" 
+              link="https://github.com/kailyl/2048"/>
         </div>
       </div>
-      <p className='footer'> made by me :) - design inspo from {inspo}</p>
     </div>
   );
 }
-
-export default Homepage;
