@@ -10,7 +10,7 @@ export default function Homepage() {
         <div id="projects1">
           <Project 
             name="BenBook" 
-            tools="NodeJS, Java, CSS, DynamoDB, EC2" 
+            tools="NodeJS, Java, CSS, AWS (DynamoDB, S3, EC2, EMR)"
             descr="Facebook-like site with walls, news feeds, and chats" 
             time="2022" 
             link="https://github.com/kailyl/benbook"/>
@@ -54,6 +54,14 @@ export default function Homepage() {
               descr="(with saving, restarting, and resuming)" 
               time="2021" 
               link="https://github.com/kailyl/2048"/>
+        </div>
+        <div id="projects7">
+          <Project 
+            name="kailyl.github.io" 
+            tools="ReactJS"
+            descr="this." 
+            time="∞" 
+            link="https://github.com/kailyl/kailyl.github.io"/>
         </div>
       </div>
     </div>

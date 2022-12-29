@@ -36,7 +36,7 @@
     text-align: center;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
     #projName {
         margin-top: 5vh;
     }
@@ -44,7 +44,7 @@
 
 @media only screen and (max-width: 500px) {
     #projName {
-        margin-top: 2vh;
+        margin-top: 1vh;
     }
     #time {
         margin-top: 1%;

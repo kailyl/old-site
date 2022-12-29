@@ -28,12 +28,7 @@
   border: 1px solid black; 
 }
 
-#projects2 {
-  border: 1px solid black; 
-  border-left: none;
-}
-
-#projects3, #projects4 {
+#projects2, #projects3, #projects4 {
   border: 1px solid black; 
   border-left: none;
 }
@@ -43,7 +38,7 @@
   border-top: none;
 }
 
-#projects6 {
+#projects6, #projects7 {
   border: 1px solid black; 
   border-top: none;
   border-left: none;
@@ -78,6 +73,11 @@
     border: 1px solid black; 
     border-top: none;
     border-left: none;
+  }
+
+  #projects7 {
+    border: 1px solid black; 
+    border-top: none;
   }
 }
 
@@ -114,7 +114,7 @@
   #projects1 {
     border: 1px solid black; 
   }
-  #projects2, #projects3, #projects4, #projects5, #projects6 {
+  #projects2, #projects3, #projects4, #projects5, #projects6, #projects7 {
     border: 1px solid black; 
     margin-top: -5px;
     border-top: none;
