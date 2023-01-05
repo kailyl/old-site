@@ -24,21 +24,21 @@
 	}
 }
 
-#projects1 {
+#projects0 {
   border: 1px solid black; 
 }
 
-#projects2, #projects3, #projects4 {
+#projects1, #projects2, #projects3 {
   border: 1px solid black; 
   border-left: none;
 }
 
-#projects5 {
+#projects4 {
   border: 1px solid black; 
   border-top: none;
 }
 
-#projects6, #projects7 {
+#projects5, #projects6, #projects7 {
   border: 1px solid black; 
   border-top: none;
   border-left: none;

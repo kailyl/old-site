@@ -6,7 +6,15 @@ export default function Homepage() {
   return (
     <div>
       <Header homeItalics="italic" aboutItalics="none"/> 
-      <div id="all"> 
+      <div id="all">
+        <div id="projects0">
+          <Project 
+            name="Spotify Dashboard" 
+            tools="NodeJS, Java, Python, AWS (DynamoDB, Lambda)"
+            descr="Stores the songs I listen to daily and displays them with some analytics" 
+            time="2022" 
+            link="https://github.com/kailyl/spotify-dashboard-data"/>
+        </div> 
         <div id="projects1">
           <Project 
             name="BenBook" 
@@ -16,20 +24,20 @@ export default function Homepage() {
             link="https://github.com/kailyl/benbook"/>
         </div>
         <div id="projects2">
-            <Project 
-              name="Plotify" 
-              tools="ReactJS, CSS" 
-              descr="Uses Spotify API to graph song preferences" 
-              time="2022" 
-              link="https://github.com/PlotifyApp/plotifyapp.github.io"/>
-          </div>
-        <div id="projects3">
-        <Project 
+          <Project 
             name="FNAR 0010" 
             tools="Charcoal, Pencil, India Ink" 
             descr="I took an art class" 
             time="2022" 
             link="/fnar"/>
+        </div>
+        <div id="projects3">
+          <Project 
+              name="Plotify" 
+              tools="ReactJS, CSS" 
+              descr="Uses Spotify API to graph song preferences" 
+              time="2022" 
+              link="https://github.com/kailyl/plotifyapp.github.io"/>
         </div>
         <div id="projects4">
           <Project 
@@ -59,7 +67,7 @@ export default function Homepage() {
           <Project 
             name="kailyl.github.io" 
             tools="ReactJS"
-            descr="this." 
+            descr="this" 
             time="∞" 
             link="https://github.com/kailyl/kailyl.github.io"/>
         </div>
