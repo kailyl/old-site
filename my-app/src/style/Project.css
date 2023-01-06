@@ -36,17 +36,33 @@
     text-align: center;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 350px) {
     #projName {
+        margin-top: 8vh;
+    }
+
+    #tools {
         margin-top: 5vh;
     }
 }
 
-@media only screen and (max-width: 500px) {
+
+@media only screen and (max-height: 500px) {
     #projName {
-        margin-top: 1vh;
+        margin-top: 8vh;
     }
-    #time {
-        margin-top: 1%;
+
+    #tools {
+        margin-top: 5vh;
+    }
+}
+
+@media only screen and (max-height: 400px) {
+    #projName {
+        margin-top: -2vh;
+    }
+
+    #tools {
+        display: none;
     }
 }

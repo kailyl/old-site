@@ -7,15 +7,23 @@ export default function Homepage() {
     <div>
       <Header homeItalics="italic" aboutItalics="none"/> 
       <div id="all">
-        <div id="projects0">
+        <div id="projects-1" className="elem">
           <Project 
             name="Spotify Dashboard" 
-            tools="NodeJS, Java, Python, AWS (DynamoDB, Lambda)"
-            descr="Stores the songs I listen to daily and displays them with some analytics" 
+            tools="NodeJS, ReactJS, AWS (DynamoDB)"
+            descr="Fetches data from DynamoDB and displays it with some ChartJS" 
+            time="2022" 
+            link="https://github.com/kailyl/spotify-dashboard"/>
+        </div> 
+        <div id="projects0" className="elem">
+          <Project 
+            name="Spotify Dashboard (Data)" 
+            tools="Python, AWS (DynamoDB, Lambda, EventBridge)"
+            descr="Stores the songs I listen to daily - running every day since 1/1/2023" 
             time="2022" 
             link="https://github.com/kailyl/spotify-dashboard-data"/>
         </div> 
-        <div id="projects1">
+        <div id="projects1" className="elem">
           <Project 
             name="BenBook" 
             tools="NodeJS, Java, CSS, AWS (DynamoDB, S3, EC2, EMR)"
@@ -23,7 +31,7 @@ export default function Homepage() {
             time="2022" 
             link="https://github.com/kailyl/benbook"/>
         </div>
-        <div id="projects2">
+        <div id="projects2" className="elem">
           <Project 
             name="FNAR 0010" 
             tools="Charcoal, Pencil, India Ink" 
@@ -31,7 +39,7 @@ export default function Homepage() {
             time="2022" 
             link="/fnar"/>
         </div>
-        <div id="projects3">
+        <div id="projects3" className="elem">
           <Project 
               name="Plotify" 
               tools="ReactJS, CSS" 
@@ -39,7 +47,7 @@ export default function Homepage() {
               time="2022" 
               link="https://github.com/kailyl/plotifyapp.github.io"/>
         </div>
-        <div id="projects4">
+        <div id="projects4" className="elem">
           <Project 
             name="Common Onion Twitter Bot" 
             tools="Python" 
@@ -47,7 +55,7 @@ export default function Homepage() {
             time="2022" 
             link="https://github.com/kailyl/the-onion-twitter-bot"/>
         </div>
-        <div id="projects5">
+        <div id="projects5" className="elem">
           <Project 
             name="Age in Congressional Committees" 
             tools="Java" 
@@ -55,7 +63,7 @@ export default function Homepage() {
             time="2022" 
             link="https://github.com/kailyl/nets-150-final-project"/>
         </div>
-        <div id="projects6">
+        <div id="projects6" className="elem">
           <Project 
               name="2048" 
               tools="Java" 
@@ -63,7 +71,7 @@ export default function Homepage() {
               time="2021" 
               link="https://github.com/kailyl/2048"/>
         </div>
-        <div id="projects7">
+        <div id="projects7" className="elem">
           <Project 
             name="kailyl.github.io" 
             tools="ReactJS"

@@ -15,6 +15,10 @@
   grid-gap: 0px;
 }
 
+.elem {
+  height: 40vh;
+}
+
 @keyframes fadeInOpacity {
 	0% {
         opacity: 0;
@@ -24,83 +28,77 @@
 	}
 }
 
-#projects0 {
+#projects-1 {
   border: 1px solid black; 
 }
 
-#projects1, #projects2, #projects3 {
+#projects0, #projects1, #projects2 {
   border: 1px solid black; 
   border-left: none;
 }
 
-#projects4 {
+#projects3, #projects7 {
   border: 1px solid black; 
   border-top: none;
 }
 
-#projects5, #projects6, #projects7 {
+#projects4, #projects5, #projects6 {
   border: 1px solid black; 
   border-top: none;
   border-left: none;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1075px) {
   #all {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  #projects1 {
+  #projects-1 {
     border: 1px solid black; 
   }
   
-  #projects2, #projects3 {
+  #projects0, #projects1 {
     border: 1px solid black; 
     border-left: none;
   }
   
-  #projects4 {
+  #projects2 {
     border: 1px solid black; 
     border-top: none;
   }
   
-  #projects5 {
-    border: 1px solid black; 
-    border-top: none;
-    border-left: none;
-  }
-  
-  #projects6 {
+  #projects3, #projects4, #projects6, #projects7 {
     border: 1px solid black; 
     border-top: none;
     border-left: none;
   }
 
-  #projects7 {
+  #projects5 {
     border: 1px solid black; 
     border-top: none;
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 805px) {
   #all {
     grid-template-columns: 1fr 1fr;
   }
 
-  #projects1 {
+  #projects-1 {
     border: 1px solid black; 
   }
   
-  #projects2 {
+  #projects0 {
     border: 1px solid black; 
     border-left: none;
   }
   
-  #projects3, #projects5 {
+  #projects1, #projects3, #projects5, #projects7 {
     border: 1px solid black; 
     border-top: none;
   }
 
-  #projects4, #projects6 {
+  #projects2, #projects4, #projects6 {
     border: 1px solid black;
     border-top: none; 
     border-left: none;
@@ -111,10 +109,10 @@
   #all {
     display: block;
   }
-  #projects1 {
+  #projects-1 {
     border: 1px solid black; 
   }
-  #projects2, #projects3, #projects4, #projects5, #projects6, #projects7 {
+  #projects0, #projects1, #projects2, #projects3, #projects4, #projects5, #projects6, #projects7 {
     border: 1px solid black; 
     margin-top: -5px;
     border-top: none;
