@@ -12,7 +12,7 @@ export default function Homepage() {
             name="Spotify Dashboard" 
             tools="NodeJS, ReactJS, AWS (DynamoDB)"
             descr="Fetches data from DynamoDB and displays it with some ChartJS" 
-            time="2022" 
+            time="2023" 
             link="https://github.com/kailyl/spotify-dashboard"/>
         </div> 
         <div id="projects0" className="elem">
@@ -20,7 +20,7 @@ export default function Homepage() {
             name="Spotify Dashboard (Data)" 
             tools="Python, AWS (DynamoDB, Lambda, EventBridge)"
             descr="Stores the songs I listen to daily - running every day since 1/1/2023" 
-            time="2022" 
+            time="2023" 
             link="https://github.com/kailyl/spotify-dashboard-data"/>
         </div> 
         <div id="projects1" className="elem">
