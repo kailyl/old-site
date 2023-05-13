@@ -11,7 +11,7 @@ export default function Homepage() {
           <Project 
             name="Spotify Dashboard" 
             tools="NodeJS, ReactJS, AWS (DynamoDB)"
-            descr="Fetches data from DynamoDB and displays it with some ChartJS" 
+            descr="Fetches data from DynamoDB and displays it with some ChartJS"
             time="2023" 
             link="https://github.com/kailyl/spotify-dashboard"/>
         </div> 

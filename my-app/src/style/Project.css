@@ -21,6 +21,11 @@
     color: black;
 }
 
+#spotify-dashboard {
+    color: black;
+    font-size: 12px;
+}
+
 #desc {
     width: 100%;
     height: 20%;
