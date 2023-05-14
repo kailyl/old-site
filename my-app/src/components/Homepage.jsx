@@ -43,7 +43,7 @@ export default function Homepage() {
           <Project 
               name="Plotify" 
               tools="ReactJS, CSS" 
-              descr="Uses Spotify API to graph song preferences" 
+              descr="Uses the Spotify API to graph song preferences" 
               time="2022" 
               link="https://github.com/kailyl/plotifyapp.github.io"/>
         </div>
