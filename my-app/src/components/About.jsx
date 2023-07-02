@@ -22,7 +22,7 @@ export default function About() {
                     <a href="https://github.com/kailyl" id="link">GitHub</a> 
                     <a href="https://open.spotify.com/user/kailyliu" id="link">Spotify</a> 
                     <a href="https://www.pinterest.com/kliu279/" id="link">Pinterest</a> 
-                    <a href="https://drive.google.com/file/d/1ICDXXhzEg5TDaeZ8iQS_f5X-EeCQ4dVg/view?usp=sharing" id="link">Resume</a> 
+                    <a href="https://drive.google.com/file/d/1K3XkbdYmXRrEOonSaXiwRtClsWtCY1M0/view" id="link">Resume</a> 
                     <a href="https://www.linkedin.com/in/kaily-liu/" id="link">LinkedIn</a> 
                 </div>
             </div>
