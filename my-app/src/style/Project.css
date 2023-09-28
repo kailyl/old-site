@@ -5,7 +5,6 @@
 
 #projName {
     margin-top: 12vh;
-    height: 50%;
     width: 80%;
     margin-left: 10%;
     text-align: center;
@@ -41,7 +40,23 @@
     text-align: center;
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 600px) {
+    #projName {
+        margin-top: 8vh;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    #projName {
+        margin-top: 18vh;
+    }
+
+    #tools {
+        margin-top: 5vh;
+    }
+}
+
+@media only screen and (max-width: 425px) {
     #projName {
         margin-top: 8vh;
     }
