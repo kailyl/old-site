@@ -18,6 +18,8 @@ function App() {
 				<Routes>
 					<Route exact path="/"
 						element={<Homepage />} />
+					<Route exact path="/index.html"
+						element={<Homepage />} />
 					<Route exact path="/about"
 						element={<About />} />
 					<Route exact path="/fnar"
