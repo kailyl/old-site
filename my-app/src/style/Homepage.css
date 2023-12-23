@@ -3,7 +3,7 @@
 	animation-name: fadeInOpacity;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
-	animation-duration: 1s;   
+	animation-duration: 2s;   
   margin-left: 2%;
   margin-right: 2%;
   margin-bottom: 2%;
@@ -30,21 +30,21 @@
 	}
 }
 
-#projects-1 {
+#projects-2 {
   border: 1px solid black; 
 }
 
-#projects0, #projects1, #projects2 {
+#projects-3, #projects-4, #projects-5 {
   border: 1px solid black; 
   border-left: none;
 }
 
-#projects3, #projects7 {
+#projects-1, #projects3, #projects7 {
   border: 1px solid black; 
   border-top: none;
 }
 
-#projects4, #projects5, #projects6 {
+#projects4, #projects5, #projects6, #projects0, #projects1, #projects2 {
   border: 1px solid black; 
   border-top: none;
   border-left: none;

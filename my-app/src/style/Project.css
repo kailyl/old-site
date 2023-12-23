@@ -20,9 +20,13 @@
     color: black;
 }
 
-#spotify-dashboard, #plotify {
+#spotify-dashboard, #plotify, #leo, #pine {
     color: black;
     font-size: 12px;
+}
+
+#spotify-dashboard:hover, #plotify:hover, #leo:hover, #pine:hover {
+    font-style: italic;
 }
 
 #desc {

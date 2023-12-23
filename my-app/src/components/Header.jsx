@@ -18,7 +18,7 @@ export default function Header(props) {
     }
 
     return (
-        <div> 
+        <div id="allHeader"> 
             <p id="name" onClick={function() {window.location.href='/'}} style={{fontStyle: props.homeItalics}}>Kaily Liu</p>
             <p onMouseEnter={onHover} onMouseLeave={onLeave} id="date">{hover ? date.toLocaleTimeString() : date.toLocaleDateString().replaceAll("/", ".")}</p>
             <button id="about" onClick={function() {window.location.href='/about'}} style={{fontStyle: props.aboutItalics}}>About</button>

@@ -7,6 +7,38 @@ export default function Homepage() {
     <div>
       <Header homeItalics="italic" aboutItalics="none"/> 
       <div id="all">
+        <div id="projects-2" className="elem">
+          <Project 
+            name="DiCaprio Detector" 
+            tools="Python (OpenCV, Tensorflow Keras)"
+            descr="Deep learning model for recognizing images of Leonardo DiCaprio"
+            time="2023" 
+            link="https://github.com/kailyl/CIS-581-final-project"/>
+        </div> 
+        <div id="projects-3" className="elem">
+          <Project 
+            name="Pine" 
+            tools="NodeJS, ReactJS"
+            descr="A personalized news app that creates a daily news feed for users"
+            time="2023" 
+            link="https://github.com/kailyl/cis-4120-pine"/>
+        </div> 
+        <div id="projects-4" className="elem">
+          <Project 
+            name="DSGN 0010" 
+            tools="Adobe Illustrator, Photoshop, InDesign"
+            descr="I took a design class"
+            time="2023" 
+            link="/dsgn"/>
+        </div> 
+        <div id="projects-5" className="elem">
+          <Project 
+            name="Understanding and Predicting Global Temperature Trends" 
+            tools="Python (Pandas, NumPy, Scikit)"
+            descr="EDA and modeling for lots of temperature data"
+            time="2023" 
+            link="https://github.com/kailyl/temperature-analysis"/>
+        </div> 
         <div id="projects-1" className="elem">
           <Project 
             name="Spotify Dashboard" 
@@ -27,7 +59,7 @@ export default function Homepage() {
           <Project 
             name="BenBook" 
             tools="NodeJS, Java, CSS, AWS (DynamoDB, S3, EC2, EMR)"
-            descr="Facebook-like site with walls, news feeds, and chats" 
+            descr="Facebook-like website with walls, news feeds, and chats" 
             time="2022" 
             link="https://github.com/kailyl/benbook"/>
         </div>
@@ -51,7 +83,7 @@ export default function Homepage() {
           <Project 
             name="Common Onion Twitter Bot" 
             tools="Python" 
-            descr="Uses Twitter API to generate funny tweets" 
+            descr="Uses the Twitter API to generate funny tweets" 
             time="2022" 
             link="https://github.com/kailyl/the-onion-twitter-bot"/>
         </div>

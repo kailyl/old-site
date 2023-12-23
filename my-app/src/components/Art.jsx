@@ -9,13 +9,13 @@ import img5 from "../images/IMG_4207.jpeg"
 import img6 from "../images/IMG_4226.jpeg"
 import img7 from "../images/IMG_4322.jpeg"
 
-export default function Homepage() {
+export default function Art() {
     return (
         <div>
             <Header homeItalics="none" aboutItalics="none"/>
             <div id="infoDrawings">
                 <div id="left">
-                    <p> My drawings from FNAR 0010 (Intro to Drawing) - Fall 2022: </p>
+                    <p id="desc-art"> My drawings from FNAR 0010 (Intro to Drawing) - Fall 2022. </p>
                 </div>
                 <div id="allImages"> 
                     <div id="drawing"> 
